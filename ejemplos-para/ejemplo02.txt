@@ -1,4 +1,4 @@
-// Generar un programa que presente en pantalla
+﻿// Generar un programa que presente en pantalla
 // o escriba en pantalla los números menores o iguales a 10.
 // Los números deben empezar en 1 y un incremente de 2 en 2
 
@@ -6,10 +6,17 @@
 1. Inicio
 2. num, i[0, n]
 3. Para(num<--1, num<=10, 2) haga
-4. // empieza en 1, itera hasta que num sea menor o igual a 10, incrementos de 1
-5.     Escribir num
-6. Fin_Para 
-7. Fin
+4. cadenaFinal, x(200)[{1-11},{/},{BS}]
+5. cadenaFinal<--""
+6. // empieza en 1, itera hasta que num sea menor o igual a 10, incrementos de 1
+
+7.     cadenaFinal <-- cadeaFinal+num+"\n" 
+
+8. Fin_Para 
+
+9. <<cadenaFinal
+
+10. Fin
 
 // salida
 // 1
